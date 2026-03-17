@@ -28,7 +28,7 @@ const ExperienceSection = () => {
             <div className="overflow-hidden">
               <img
                 src={trainerCoachImg}
-                alt="Personal training session at Raw Fitness"
+                alt="Personal training session at NestFit"
                 className="w-full h-[600px] object-cover"
                 loading="lazy"
               />
