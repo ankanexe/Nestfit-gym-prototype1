@@ -1,16 +1,35 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Navbar from "@/components/Navbar";
+import HeroSection from "@/components/HeroSection";
+import BrandStory from "@/components/BrandStory";
+import ExperienceSection from "@/components/ExperienceSection";
+import FacilitiesSection from "@/components/FacilitiesSection";
+import TrainersSection from "@/components/TrainersSection";
+import MembershipSection from "@/components/MembershipSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
+import GallerySection from "@/components/GallerySection";
+import LocationSection from "@/components/LocationSection";
+import CTASection from "@/components/CTASection";
+import Footer from "@/components/Footer";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
-// IMPORTANT: Fully REPLACE this with your own code
-const PlaceholderIndex = () => {
-  // PLACEHOLDER: Replace this entire return statement with the user's app.
-  // The inline background color is intentionally not part of the design system.
+const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center" style={{ backgroundColor: '#fcfbf8' }}>
-      <img data-lovable-blank-page-placeholder="REMOVE_THIS" src="/placeholder.svg" alt="Your app will live here!" />
-    </div>
+    <main className="overflow-x-hidden">
+      <Navbar />
+      <HeroSection />
+      <BrandStory />
+      <ExperienceSection />
+      <FacilitiesSection />
+      <TrainersSection />
+      <MembershipSection />
+      <TestimonialsSection />
+      <GallerySection />
+      <LocationSection />
+      <CTASection />
+      <Footer />
+      <WhatsAppButton />
+    </main>
   );
 };
-
-const Index = PlaceholderIndex;
 
 export default Index;
