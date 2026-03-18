@@ -1,12 +1,8 @@
 import ScrollReveal from "./ScrollReveal";
-import trainer1 from "@/assets/trainer-1.jpg";
-import trainer2 from "@/assets/trainer-2.jpg";
-import trainer3 from "@/assets/trainer-3.jpg";
-
 const trainers = [
   {
-    img: trainer1,
-    name: "Jyotirmoy",
+    img: "/images/T1Armam.jpeg",
+    name: "Trainer Armam",
     specialization: "Strength & Conditioning",
     experience: "8+ Years",
     desc: "Certified strength coach specializing in powerlifting and athletic performance.",
