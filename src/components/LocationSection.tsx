@@ -21,7 +21,7 @@ const LocationSection = () => {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Raw Fitness location on Google Maps"
+                title="NestFit Gym location on Google Maps"
               />
             </div>
           </ScrollReveal>
@@ -33,11 +33,11 @@ const LocationSection = () => {
                 <div>
                   <h3 className="font-display text-xl text-foreground mb-2">Address</h3>
                   <p className="font-body text-muted-foreground">
-                    Raw Fitness, Saroj Park, Taki Rd,<br />
+                    Saptarshi Sangha Club, Palpakuria Rd,<br />
                     Barasat, Kolkata, West Bengal 700124
                   </p>
                   <p className="font-body text-sm text-muted-foreground/70 mt-2">
-                    Located in: Taki Road Balak Brinda Sporting Club
+                    Located in: Saptarshi Sangha Club
                   </p>
                 </div>
               </div>
@@ -54,14 +54,14 @@ const LocationSection = () => {
                 <Phone className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-display text-xl text-foreground mb-2">Phone</h3>
-                  <a href="tel:06290282721" className="font-body text-accent hover:underline">
-                    062902 82721
+                  <a href="tel:09051185023" className="font-body text-accent hover:underline">
+                    090511 85023
                   </a>
                 </div>
               </div>
 
               <a
-                href="https://maps.google.com/?q=Raw+Fitness+Barasat+Kolkata"
+                href="https://maps.google.com/?q=NestFit+Gym+Barasat+Kolkata"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block mt-4 border border-foreground/20 text-foreground px-8 py-3 font-condensed text-sm uppercase tracking-widest hover:bg-foreground/5 transition-all text-center"
