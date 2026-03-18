@@ -33,7 +33,7 @@ const HeroSection = () => {
           transition={{ delay: 0.7, duration: 0.8 }}
           className="font-display text-5xl md:text-7xl lg:text-9xl leading-[0.9] text-gradient mb-6"
         >
-          Train Hard. Build Strength at NestFit Gym.<br />Become Stronger.
+          Build Strength at NestFit Gym.<br />
         </motion.h1>
 
         <motion.p
