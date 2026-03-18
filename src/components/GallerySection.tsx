@@ -2,22 +2,15 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { X } from "lucide-react";
 import ScrollReveal from "./ScrollReveal";
-import heroImg from "@/assets/hero-gym.jpg";
-import athleteImg from "@/assets/athlete-training.jpg";
-import weightsImg from "@/assets/gym-weights.jpg";
-import benchImg from "@/assets/bench-press.jpg";
-import coachImg from "@/assets/trainer-coaching.jpg";
-import cardioImg from "@/assets/cardio-area.jpg";
-import battleImg from "@/assets/battle-ropes.jpg";
 
 const images = [
-  { src: heroImg, alt: "Raw Fitness gym interior" },
-  { src: athleteImg, alt: "Athlete deadlifting" },
-  { src: weightsImg, alt: "Free weights zone" },
-  { src: benchImg, alt: "Bench press training" },
-  { src: coachImg, alt: "Personal training session" },
-  { src: cardioImg, alt: "Cardio area" },
-  { src: battleImg, alt: "Battle ropes workout" },
+  { src: "/images/1.jpeg", alt: "Gym interior" },
+  { src: "/images/2.jpeg", alt: "Transformation result" },
+  { src: "/images/3.jpeg", alt: "Workout session" },
+  { src: "/images/4.jpeg", alt: "Strength training" },
+  { src: "/images/5.jpeg", alt: "Cardio training" },
+  { src: "/images/6.jpeg", alt: "Weights area" },
+  { src: "/images/7.jpeg", alt: "Group training" },
 ];
 
 const GallerySection = () => {
