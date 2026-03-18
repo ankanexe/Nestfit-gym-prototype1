@@ -105,7 +105,7 @@ const MembershipSection = () => {
                 </ul>
 
                 <a
-                  href="https://wa.me/917797822568?text=Hi%20I%20want%20to%20join%20NestFit%20Gym"
+                  href={`https://wa.me/919051185023?text=Hi%20I%20want%20to%20join%20the%20${plan.name}%20at%20NestFit%20Gym.%20Please%20share%20details.`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className={`block text-center py-3 font-condensed text-sm uppercase tracking-widest transition-all ${
