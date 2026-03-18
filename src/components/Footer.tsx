@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-12 mb-12">
           <div>
             <h3 className="font-display text-2xl tracking-widest text-foreground mb-2">
-              RAW FITNESS<span className="text-accent">.</span>
+              NESTFIT<span className="text-accent">.</span>
             </h3>
             <p className="font-display text-sm text-muted-foreground mb-4">নেস্টফিট জিম</p>
             <p className="font-body text-sm text-muted-foreground leading-relaxed">
@@ -41,8 +41,8 @@ const Footer = () => {
               </div>
               <div className="flex gap-3">
                 <Phone className="w-4 h-4 text-accent flex-shrink-0 mt-0.5" />
-                <a href="tel:07797822568" className="font-body text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  07797822568
+                <a href="tel:09051185023" className="font-body text-sm text-muted-foreground hover:text-foreground transition-colors">
+                  09051185023
                 </a>
               </div>
               <div className="flex gap-3">
