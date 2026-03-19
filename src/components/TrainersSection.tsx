@@ -1,4 +1,5 @@
 import ScrollReveal from "./ScrollReveal";
+
 const trainers = [
   {
     img: "/images/T1Armam.jpeg",
@@ -25,8 +26,12 @@ const TrainersSection = () => {
     <section id="trainers" className="py-32 px-6 bg-gradient-steel">
       <div className="max-w-7xl mx-auto">
         <ScrollReveal className="text-center mb-20">
-          <p className="font-condensed text-sm tracking-[0.3em] text-accent uppercase mb-4">Our Trainers</p>
-          <h2 className="font-display text-4xl md:text-6xl text-gradient">Meet Your Coaches</h2>
+          <p className="font-condensed text-sm tracking-[0.3em] text-accent uppercase mb-4">
+            Our Trainers
+          </p>
+          <h2 className="font-display text-4xl md:text-6xl text-gradient">
+            Meet Your Coaches
+          </h2>
         </ScrollReveal>
 
         <div className="grid md:grid-cols-3 gap-8">
@@ -42,10 +47,17 @@ const TrainersSection = () => {
                   />
                 </div>
                 <div className="p-6">
-                  <p className="font-condensed text-xs tracking-[0.2em] text-accent uppercase mb-2">{t.specialization}</p>
-                  <h3 className="font-display text-2xl text-foreground mb-1">{t.name}</h3>
-                  <p className="font-condensed text-xs text-muted-foreground tracking-wider mb-3">{t.experience} Experience</p>
-                  <p className="font-body text-sm text-muted-foreground">{t.desc}</p>
+                  <p className="font-condensed text-xs tracking-[0.2em] text-accent uppercase mb-2">
+                    {t.specialization}
+                  </p>
+
+                  <h3 className="font-display text-2xl text-foreground mb-1">
+                    {t.name}
+                  </h3>
+
+                  <p className="font-body text-sm text-muted-foreground">
+                    {t.desc}
+                  </p>
                 </div>
               </div>
             </ScrollReveal>
