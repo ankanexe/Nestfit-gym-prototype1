@@ -39,19 +39,32 @@ const Footer = () => {
                   Saptarshi Sangha Club, Palpakuria Rd, Barasat,<br />Kolkata, WB 700125
                 </p>
               </div>
+
               <div className="flex gap-3">
                 <Phone className="w-4 h-4 text-accent flex-shrink-0 mt-0.5" />
                 <a href="tel:09051185023" className="font-body text-sm text-muted-foreground hover:text-foreground transition-colors">
                   09051185023
                 </a>
               </div>
+
+              {/* ✅ FIXED ALIGNED TIMINGS */}
               <div className="flex gap-3">
                 <Clock className="w-4 h-4 text-accent flex-shrink-0 mt-0.5" />
-                <p className="font-body text-sm text-muted-foreground">
-                  Mon–Sat: 6:00 AM – 12:00 PM <br />
-                  4:00 PM – 10:30 PM <br /><br />
-                  Sunday: 6:00 AM – 12:00 PM
-                </p>
+
+                <div className="font-body text-sm text-muted-foreground">
+                  <div>
+                    <span className="inline-block w-[95px]">Mon–Sat:</span>
+                    6:00 AM – 12:00 PM
+                  </div>
+                  <div>
+                    <span className="inline-block w-[95px]"></span>
+                    4:00 PM – 10:30 PM
+                  </div>
+                  <div className="mt-2">
+                    <span className="inline-block w-[95px]">Sunday:</span>
+                    6:00 AM – 12:00 PM
+                  </div>
+                </div>
               </div>
             </div>
           </div>
