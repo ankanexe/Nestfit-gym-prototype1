@@ -1,6 +1,4 @@
 import ScrollReveal from "./ScrollReveal";
-import athleteImg from "@/assets/athlete-training.jpg";
-import benchImg from "@/assets/bench-press.jpg";
 
 const BrandStory = () => {
   return (
@@ -20,7 +18,7 @@ const BrandStory = () => {
           <ScrollReveal direction="left">
             <div className="overflow-hidden">
               <img
-                src={athleteImg}
+                src="/images/PIC1STRENGTH.jpeg"
                 alt="Athlete performing heavy deadlift at NestFit"
                 className="w-full h-[500px] object-cover hover:scale-105 transition-transform duration-700"
                 loading="lazy"
@@ -69,7 +67,7 @@ const BrandStory = () => {
           <ScrollReveal direction="right" delay={0.2} className="order-1 lg:order-2">
             <div className="overflow-hidden">
               <img
-                src={benchImg}
+                src="/images/PIC2COMMUNITY.jpeg"
                 alt="Intense bench press workout at NestFit"
                 className="w-full h-[500px] object-cover hover:scale-105 transition-transform duration-700"
                 loading="lazy"
