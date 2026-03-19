@@ -1,4 +1,4 @@
-import { Instagram, Phone, MapPin, Clock } from "lucide-react";
+import { Instagram, MessageCircle, Phone, MapPin, Clock } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -47,10 +47,8 @@ const Footer = () => {
                 </a>
               </div>
 
-              {/* Timings */}
               <div className="flex gap-3">
                 <Clock className="w-4 h-4 text-accent flex-shrink-0 mt-0.5" />
-
                 <div className="font-body text-sm text-muted-foreground">
                   <div>
                     <span className="inline-block w-[95px]">Mon–Sat:</span>
@@ -69,16 +67,16 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* 🔥 UPDATED SOCIAL SECTION */}
+          {/* ✅ FINAL SOCIAL SECTION */}
           <div>
             <h4 className="font-condensed text-xs tracking-[0.2em] text-accent uppercase mb-4">
-              Connect With Us
+              Follow Us
             </h4>
 
             <div className="flex gap-4">
               {/* Instagram */}
               <a
-                href="https://www.instagram.com/jyotirmoy.gain?igsh=MTg5aTdhNHFpNWFkcQ%3D%3D&utm_source=qr"
+                href="https://instagram.com/jyotirmoy.gain"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-accent transition-colors"
@@ -95,7 +93,7 @@ const Footer = () => {
                 className="text-muted-foreground hover:text-accent transition-colors"
                 aria-label="WhatsApp"
               >
-                <Phone className="w-5 h-5" />
+                <MessageCircle className="w-5 h-5" />
               </a>
             </div>
           </div>
