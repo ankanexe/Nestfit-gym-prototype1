@@ -14,7 +14,7 @@ const testimonials = [
   },
   {
     text: "Best gym with good ambience and a very friendly owner. Transformed my body in 6 months with their guidance.",
-    name: "Riya D.",
+    name: "Riya Das",
     rating: 5,
   },
   {
