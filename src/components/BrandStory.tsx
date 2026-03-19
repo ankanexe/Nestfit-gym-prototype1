@@ -13,18 +13,19 @@ const BrandStory = () => {
           <div className="section-divider mt-8" />
         </ScrollReveal>
 
-        {/* Story blocks */}
+        {/* Strength Section */}
         <div className="grid lg:grid-cols-2 gap-16 items-center mb-32">
           <ScrollReveal direction="left">
             <div className="overflow-hidden">
               <img
-                src="/images/PIC2COMMUNITY.jpeg"
+                src="/images/PIC1STRENGTH.jpeg"
                 alt="Athlete performing heavy deadlift at NestFit"
                 className="w-full h-[500px] object-cover hover:scale-105 transition-transform duration-700"
                 loading="lazy"
               />
             </div>
           </ScrollReveal>
+
           <ScrollReveal direction="right" delay={0.2}>
             <p className="font-condensed text-xs tracking-[0.3em] text-accent uppercase mb-4">Strength</p>
             <h3 className="font-display text-3xl md:text-4xl text-foreground mb-6">
@@ -41,6 +42,7 @@ const BrandStory = () => {
           </ScrollReveal>
         </div>
 
+        {/* Community Section */}
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <ScrollReveal direction="left" className="order-2 lg:order-1">
             <p className="font-condensed text-xs tracking-[0.3em] text-accent uppercase mb-4">Community</p>
@@ -51,6 +53,7 @@ const BrandStory = () => {
               At NestFit, you're not just a member — you're family. Our trainers don't just guide workouts; 
               they walk the journey with you. From fat loss to muscle building, from first-timers to competitors.
             </p>
+
             <div className="grid grid-cols-3 gap-6 mt-10">
               {[
                 { value: "200+", label: "Members" },
@@ -59,16 +62,19 @@ const BrandStory = () => {
               ].map((stat) => (
                 <div key={stat.label} className="text-center">
                   <p className="font-display text-3xl text-accent">{stat.value}</p>
-                  <p className="font-condensed text-xs tracking-wider text-muted-foreground uppercase mt-1">{stat.label}</p>
+                  <p className="font-condensed text-xs tracking-wider text-muted-foreground uppercase mt-1">
+                    {stat.label}
+                  </p>
                 </div>
               ))}
             </div>
           </ScrollReveal>
+
           <ScrollReveal direction="right" delay={0.2} className="order-1 lg:order-2">
             <div className="overflow-hidden">
               <img
-                src="/images/PIC2COMMUNITY.jpeg"
-                alt="Intense bench press workout at NestFit"
+                src="/images/PIC2COMMUNITY.jpg"
+                alt="Community workout at NestFit"
                 className="w-full h-[500px] object-cover hover:scale-105 transition-transform duration-700"
                 loading="lazy"
               />
