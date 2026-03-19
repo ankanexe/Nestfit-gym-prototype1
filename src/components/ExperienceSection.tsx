@@ -26,7 +26,7 @@ const ExperienceSection = () => {
           <ScrollReveal direction="left">
             <div className="overflow-hidden">
               <img
-                src="/images/PIC3OWNERS.jpeg"
+                src="/images/ino.jpeg"
                 alt="Personal training session at NestFit"
                 className="w-full h-[600px] object-cover"
                 loading="lazy"
