@@ -1,6 +1,5 @@
 import { Dumbbell, Users, Target, Flame, HeartPulse, Trophy } from "lucide-react";
 import ScrollReveal from "./ScrollReveal";
-import trainerCoachImg from "@/assets/trainer-coaching.jpg";
 
 const features = [
   { icon: Users, title: "Professional Trainers", desc: "Certified experts guiding every rep" },
@@ -27,7 +26,7 @@ const ExperienceSection = () => {
           <ScrollReveal direction="left">
             <div className="overflow-hidden">
               <img
-                src={trainerCoachImg}
+                src="/images/PIC3OWNERS.jpeg"
                 alt="Personal training session at NestFit"
                 className="w-full h-[600px] object-cover"
                 loading="lazy"
