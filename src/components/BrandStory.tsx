@@ -18,7 +18,7 @@ const BrandStory = () => {
           <ScrollReveal direction="left">
             <div className="overflow-hidden">
               <img
-                src="/images/PIC1STRENGTH.jpeg"
+                src="/images/PIC2COMMUNITY.jpg"
                 alt="Athlete performing heavy deadlift at NestFit"
                 className="w-full h-[500px] object-cover hover:scale-105 transition-transform duration-700"
                 loading="lazy"
