@@ -35,16 +35,26 @@ const Navbar = () => {
           NestFit Gym<span className="text-accent">.</span>
         </a>
 
+        {/* DESKTOP MENU */}
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
             <a
               key={link.label}
               href={link.href}
+              onClick={(e) => {
+                e.preventDefault();
+                const id = link.href.replace("#", "");
+                const el = document.getElementById(id);
+                if (el) {
+                  el.scrollIntoView({ behavior: "smooth" });
+                }
+              }}
               className="font-condensed text-sm tracking-wider text-muted-foreground hover:text-foreground transition-colors uppercase"
             >
               {link.label}
             </a>
           ))}
+
           <a
             href="tel:09051185023"
             className="flex items-center gap-2 bg-accent text-accent-foreground px-5 py-2 font-condensed text-sm uppercase tracking-wider hover:bg-accent/90 transition-colors"
@@ -54,6 +64,7 @@ const Navbar = () => {
           </a>
         </div>
 
+        {/* MOBILE BUTTON */}
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
           className="md:hidden text-foreground"
@@ -63,6 +74,7 @@ const Navbar = () => {
         </button>
       </div>
 
+      {/* MOBILE MENU */}
       <AnimatePresence>
         {mobileOpen && (
           <motion.div
@@ -76,12 +88,21 @@ const Navbar = () => {
                 <a
                   key={link.label}
                   href={link.href}
-                  onClick={() => setMobileOpen(false)}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    const id = link.href.replace("#", "");
+                    const el = document.getElementById(id);
+                    if (el) {
+                      el.scrollIntoView({ behavior: "smooth" });
+                    }
+                    setMobileOpen(false);
+                  }}
                   className="font-condensed text-lg tracking-wider text-muted-foreground hover:text-foreground transition-colors uppercase"
                 >
                   {link.label}
                 </a>
               ))}
+
               <a
                 href="tel:09051185023"
                 className="flex items-center justify-center gap-2 bg-accent text-accent-foreground px-5 py-3 font-condensed text-sm uppercase tracking-wider mt-2"
