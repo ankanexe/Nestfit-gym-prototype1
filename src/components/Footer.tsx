@@ -47,7 +47,11 @@ const Footer = () => {
               </div>
               <div className="flex gap-3">
                 <Clock className="w-4 h-4 text-accent flex-shrink-0 mt-0.5" />
-                <p className="font-body text-sm text-muted-foreground">Open — Closes 10 PM</p>
+                <p className="font-body text-sm text-muted-foreground">
+                  Mon–Sat: 6:00 AM – 12:00 PM <br />
+                  4:00 PM – 10:30 PM <br /><br />
+                  Sunday: 6:00 AM – 12:00 PM
+                </p>
               </div>
             </div>
           </div>
