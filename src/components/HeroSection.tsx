@@ -58,7 +58,7 @@ const HeroSection = () => {
             ))}
           </div>
           <span className="font-condensed text-sm text-muted-foreground tracking-wider">
-            4.6 Rating from 114 Members
+            4.8 Rating from 200+ Members
           </span>
         </motion.div>
 
