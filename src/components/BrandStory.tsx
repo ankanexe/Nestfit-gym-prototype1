@@ -55,9 +55,9 @@ const BrandStory = () => {
             </p>
             <div className="grid grid-cols-3 gap-6 mt-10">
               {[
-                { value: "114+", label: "Members" },
-                { value: "4.6", label: "Rating" },
-                { value: "5+", label: "Trainers" },
+                { value: "200+", label: "Members" },
+                { value: "4.8", label: "Rating" },
+                { value: "3", label: "Trainers" },
               ].map((stat) => (
                 <div key={stat.label} className="text-center">
                   <p className="font-display text-3xl text-accent">{stat.value}</p>
