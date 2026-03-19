@@ -3,13 +3,13 @@ import ScrollReveal from "./ScrollReveal";
 
 const testimonials = [
   {
-    text: "Equipment is well maintained and the atmosphere is great for workouts. The trainers push you to your limits in the best way possible.",
-    name: "Soham M.",
+    text: "This is the very good gym. Many advance instruments are there. And Gym fees is very budget friendly.",
+    name: "Polash Samanta",
     rating: 5,
   },
   {
-    text: "Friendly trainers, good machines, and a positive workout environment. Best gym in Barasat without a doubt.",
-    name: "Aniket R.",
+    text: "This GYM was value for money, and this budget it was very good. And specially the GYM owner's dealings are good. And all the members of the GYM have a very good relationship with each others",
+    name: "Sushovan Maiti",
     rating: 5,
   },
   {
@@ -18,8 +18,8 @@ const testimonials = [
     rating: 5,
   },
   {
-    text: "Professional setup, clean environment, and trainers who actually care about your progress. Highly recommended!",
-    name: "Debajit S.",
+    text: "Professional setup, clean environment and trainers who actually care about your progress. Highly recommended!",
+    name: "Debajit Saha",
     rating: 4,
   },
 ];
