@@ -4,21 +4,18 @@ const trainers = [
     img: "/images/T1Armam.jpeg",
     name: "Trainer Armam",
     specialization: "NestFit Trainer",
-    experience: "8+ Years",
     desc: "Certified strength coach specializing in powerlifting and athletic performance.",
   },
   {
     img: "/images/T2Soumya.jpeg",
     name: "Trainer Soumya",
     specialization: "NestFit Trainer",
-    experience: "6+ Years",
     desc: "Expert in body transformation, functional training, and personalized diet planning.",
   },
   {
     img: "/images/T3Manoj.jpeg",
     name: "Trainer Manoj",
     specialization: "NestFit Trainer",
-    experience: "7+ Years",
     desc: "Hypertrophy specialist focused on progressive overload and body recomposition.",
   },
 ];
