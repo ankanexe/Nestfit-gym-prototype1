@@ -1,4 +1,4 @@
-import { Instagram, Facebook, Youtube, Phone, MapPin, Clock } from "lucide-react";
+import { Instagram, Phone, MapPin, Clock } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -47,7 +47,7 @@ const Footer = () => {
                 </a>
               </div>
 
-              {/* ✅ FIXED ALIGNED TIMINGS */}
+              {/* Timings */}
               <div className="flex gap-3">
                 <Clock className="w-4 h-4 text-accent flex-shrink-0 mt-0.5" />
 
@@ -69,17 +69,33 @@ const Footer = () => {
             </div>
           </div>
 
+          {/* 🔥 UPDATED SOCIAL SECTION */}
           <div>
-            <h4 className="font-condensed text-xs tracking-[0.2em] text-accent uppercase mb-4">Follow Us</h4>
+            <h4 className="font-condensed text-xs tracking-[0.2em] text-accent uppercase mb-4">
+              Connect With Us
+            </h4>
+
             <div className="flex gap-4">
-              <a href="#" className="text-muted-foreground hover:text-accent transition-colors" aria-label="Instagram">
+              {/* Instagram */}
+              <a
+                href="https://www.instagram.com/jyotirmoy.gain?igsh=MTg5aTdhNHFpNWFkcQ%3D%3D&utm_source=qr"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-accent transition-colors"
+                aria-label="Instagram"
+              >
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-accent transition-colors" aria-label="Facebook">
-                <Facebook className="w-5 h-5" />
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-accent transition-colors" aria-label="YouTube">
-                <Youtube className="w-5 h-5" />
+
+              {/* WhatsApp */}
+              <a
+                href="https://wa.me/919051185023"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-accent transition-colors"
+                aria-label="WhatsApp"
+              >
+                <Phone className="w-5 h-5" />
               </a>
             </div>
           </div>
