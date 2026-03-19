@@ -8,14 +8,14 @@ const trainers = [
     desc: "Certified strength coach specializing in powerlifting and athletic performance.",
   },
   {
-    img: trainer2,
+    img: "/images/T2Soumya.jpeg",
     name: "Raja",
     specialization: "Fat Loss & Nutrition",
     experience: "6+ Years",
     desc: "Expert in body transformation, functional training, and personalized diet planning.",
   },
   {
-    img: trainer3,
+    img: "/images/T3Manoj.jpeg",
     name: "Arjun",
     specialization: "Muscle Building",
     experience: "7+ Years",
