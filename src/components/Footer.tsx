@@ -42,8 +42,8 @@ const Footer = () => {
 
               <div className="flex gap-3">
                 <Phone className="w-4 h-4 text-accent flex-shrink-0 mt-0.5" />
-                <a href="tel:09051185023" className="font-body text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  09051185023
+                <a href="tel:09903904170" className="font-body text-sm text-muted-foreground hover:text-foreground transition-colors">
+                  09903904170
                 </a>
               </div>
 
@@ -87,7 +87,7 @@ const Footer = () => {
 
               {/* WhatsApp */}
               <a
-                href="https://wa.me/919051185023"
+                href="https://wa.me/919903904170"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-accent transition-colors"
