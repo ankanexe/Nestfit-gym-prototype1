@@ -74,7 +74,6 @@ const Footer = () => {
             </h4>
 
             <div className="flex gap-4">
-              {/* Instagram */}
               <a
                 href="https://instagram.com/jyotirmoy.gain"
                 target="_blank"
@@ -85,7 +84,6 @@ const Footer = () => {
                 <Instagram className="w-5 h-5" />
               </a>
 
-              {/* WhatsApp */}
               <a
                 href="https://wa.me/919903904170"
                 target="_blank"
@@ -99,8 +97,24 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-border pt-8 text-center">
-          <p className="font-body text-xs text-muted-foreground">
+        {/* ✅ UPDATED BOTTOM ROW (ONLY ADDITION) */}
+        <div className="border-t border-border pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
+          
+          {/* LEFT SIDE - YOUR SIGNATURE */}
+          <p className="text-sm text-muted-foreground tracking-wide">
+            Designed & Developed by{" "}
+            <a
+              href="https://id-preview--ee0268a0-3b2b-47b1-bf17-b8f234d45be0.lovable.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-foreground hover:text-accent transition-colors"
+            >
+              DoodLs.
+            </a>
+          </p>
+
+          {/* CENTER/RIGHT - ORIGINAL COPYRIGHT */}
+          <p className="font-body text-xs text-muted-foreground text-center">
             © {new Date().getFullYear()} NestFit Gym. All rights reserved. Barasat, Kolkata.
           </p>
         </div>
