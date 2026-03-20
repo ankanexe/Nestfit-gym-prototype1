@@ -70,7 +70,7 @@ const HeroSection = () => {
           className="flex flex-col sm:flex-row gap-4"
         >
           <a
-            href="https://wa.me/919051185023?text=Hi%2C%20I%20want%20to%20join%20NestFit%20Gym"
+            href="https://wa.me/919903904170?text=Hi%2C%20I%20want%20to%20join%20NestFit%20Gym"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-accent text-accent-foreground px-8 py-4 font-condensed text-sm uppercase tracking-widest hover:bg-accent/90 transition-all"
