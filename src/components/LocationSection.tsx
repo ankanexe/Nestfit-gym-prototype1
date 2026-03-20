@@ -53,7 +53,7 @@ const Location = () => {
           {/* ✅ RESTORED GOOGLE MAP */}
           <div className="w-full h-[400px] rounded-2xl overflow-hidden">
             <iframe
-              src="https://www.google.com/maps?q=Barasat%20Kolkata%20700125&output=embed"
+              src="https://www.google.com/maps?q=NestFit%20Gym%20Barasat&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}
