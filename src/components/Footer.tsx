@@ -104,7 +104,7 @@ const Footer = () => {
           <p className="text-sm text-muted-foreground tracking-wide">
             Designed & Developed by{" "}
             <a
-              href="https://id-preview--ee0268a0-3b2b-47b1-bf17-b8f234d45be0.lovable.app/"
+              href="https://doodls.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="font-semibold text-foreground hover:text-accent transition-colors"
