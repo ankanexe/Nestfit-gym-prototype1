@@ -90,12 +90,17 @@ const Navbar = () => {
                   href={link.href}
                   onClick={(e) => {
                     e.preventDefault();
+
                     const id = link.href.replace("#", "");
                     const el = document.getElementById(id);
-                    if (el) {
-                      el.scrollIntoView({ behavior: "smooth" });
-                    }
+
                     setMobileOpen(false);
+
+                    setTimeout(() => {
+                      if (el) {
+                        el.scrollIntoView({ behavior: "smooth" });
+                      }
+                    }, 300);
                   }}
                   className="font-condensed text-lg tracking-wider text-muted-foreground hover:text-foreground transition-colors uppercase"
                 >
