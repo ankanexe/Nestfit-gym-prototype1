@@ -7,7 +7,7 @@ const plans = [
     price: "₹500",
     period: "/month",
     features: [
-      "₹1000 one-time admission fee",
+      "₹500 one-time admission fee",
       "Full gym access",
       "All equipment access",
       "Friendly training environment",
@@ -22,7 +22,7 @@ const plans = [
     price: "₹1800",
     period: "/3 months",
     features: [
-      "₹800 one-time admission fee (₹200 OFF)",
+      "No admission fee",
       "Full gym access",
       "All equipment access",
       "Friendly training environment",
