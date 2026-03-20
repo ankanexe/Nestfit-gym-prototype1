@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { Star, ArrowDown } from "lucide-react";
-import heroImg from "@/assets/hero-gym.jpg";
 
 const HeroSection = () => {
   return (
@@ -12,7 +11,11 @@ const HeroSection = () => {
         transition={{ duration: 1.5, ease: "easeOut" }}
         className="absolute inset-0"
       >
-        <img src={heroImg} alt="NestFit Gym interior with heavy dumbbells" className="w-full h-full object-cover" />
+        <img
+          src="/images/hero.jpg"
+          alt="NestFit Gym interior"
+          className="w-full h-full object-cover"
+        />
         <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/40 to-background" />
       </motion.div>
 
