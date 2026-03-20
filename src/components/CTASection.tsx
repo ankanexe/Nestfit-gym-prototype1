@@ -14,7 +14,7 @@ const CTASection = () => {
         <ScrollReveal>
           <p className="font-condensed text-sm tracking-[0.3em] text-accent uppercase mb-6">Start Today</p>
           <h2 className="font-display text-5xl md:text-7xl lg:text-8xl text-gradient mb-6">
-            Your Transformation<br />Starts Here.
+            Your Journey<br />Starts Here.
           </h2>
           <p className="font-body text-muted-foreground text-lg max-w-xl mx-auto mb-10">
             Stop waiting. The best version of you is one decision away. Join NestFit today.
