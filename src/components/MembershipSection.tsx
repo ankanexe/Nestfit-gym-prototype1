@@ -15,6 +15,22 @@ const plans = [
     ],
     highlighted: false,
   },
+
+  // ✅ NEW PLAN ADDED (DO NOT TOUCH OTHERS)
+  {
+    name: "3 Month Plan",
+    price: "₹1800",
+    period: "/3 months",
+    features: [
+      "₹800 one-time admission fee (₹200 OFF)",
+      "Full gym access",
+      "All equipment access",
+      "Friendly training environment",
+      "Locker facility"
+    ],
+    highlighted: false,
+  },
+
   {
     name: "6 Month Plan",
     price: "₹3000",
@@ -105,7 +121,7 @@ const MembershipSection = () => {
                 </ul>
 
                 <a
-                  href={`https://wa.me/919051185023?text=Hi%20I%20want%20to%20join%20the%20${plan.name}%20at%20NestFit%20Gym.%20Please%20share%20details.`}
+                  href={`https://wa.me/919903904170?text=Hi%20I%20want%20to%20join%20the%20${plan.name}%20at%20NestFit%20Gym.%20Please%20share%20details.`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className={`block text-center py-3 font-condensed text-sm uppercase tracking-widest transition-all ${
